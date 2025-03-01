@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-03-01 19:28:35">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<application_name>Event Management and Planning System</application_name>
+<application_scope>x_1610434_event_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>USL_Rohit_EventMgmt_Day1_v1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>cbac11458300221012e66f60ceaad3ce</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 19:28:34</sys_created_on>
+<sys_id>16b31cd5838c221012e66f60ceaad3fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 19:28:34</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_90c0e5498300221012e66f60ceaad3fb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Role for managers to oversee event planning and execution.</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1610434_event_0.event_manager</name><scoped_admin>false</scoped_admin><suffix>event_manager</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 06:26:44</sys_created_on><sys_id>90c0e5498300221012e66f60ceaad3fb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1610434_event_0.event_manager</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_user_role_90c0e5498300221012e66f60ceaad3fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 06:29:04</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1780924939</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day1_v1.0">16b31cd5838c221012e66f60ceaad3fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 19:28:34</sys_created_on>
+<sys_id>1ab31cd5838c221012e66f60ceaad3fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955064e6950000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 19:28:34</sys_updated_on>
+<table/>
+<target_name>x_1610434_event_0.event_manager</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>4051e589640022104e8a3bf722396ba0</update_guid>
+<update_guid_history>4051e589640022104e8a3bf722396ba0:1780924939,3dc02d49090022102d6b1f39507826ce:2048778142</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_8db061458300221012e66f60ceaad375</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Role for coordinators to manage on-site activities and logistics.</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1610434_event_0.event_coordinator</name><scoped_admin>false</scoped_admin><suffix>event_coordinator</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 06:26:33</sys_created_on><sys_id>8db061458300221012e66f60ceaad375</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1610434_event_0.event_coordinator</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_user_role_8db061458300221012e66f60ceaad375</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 06:28:47</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1543129701</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day1_v1.0">16b31cd5838c221012e66f60ceaad3fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 19:28:34</sys_created_on>
+<sys_id>56b31cd5838c221012e66f60ceaad3fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955064a4d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 19:28:34</sys_updated_on>
+<table/>
+<target_name>x_1610434_event_0.event_coordinator</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>3b312dc1430022107fbd747b40532f21</update_guid>
+<update_guid_history>3b312dc1430022107fbd747b40532f21:1543129701,0bb02545cc002210b12452c527729a08:-2085178137</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_64d069c18300221012e66f60ceaad3fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Role for administrators with full access to the Event Management &amp; Planning system.</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1610434_event_0.event_admin</name><scoped_admin>false</scoped_admin><suffix>event_admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 06:26:59</sys_created_on><sys_id>64d069c18300221012e66f60ceaad3fe</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1610434_event_0.event_admin</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_user_role_64d069c18300221012e66f60ceaad3fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 06:29:16</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-566708210</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day1_v1.0">16b31cd5838c221012e66f60ceaad3fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 19:28:34</sys_created_on>
+<sys_id>92b31cd5838c221012e66f60ceaad3fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>195506515aa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 19:28:34</sys_updated_on>
+<table/>
+<target_name>x_1610434_event_0.event_admin</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>7651ed491c002210492d1d6279345a61</update_guid>
+<update_guid_history>7651ed491c002210492d1d6279345a61:-566708210,1dd0e94911002210ffbdfafaf74fceb2:1440338948</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_38216d498300221012e66f60ceaad3b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Basic role for users to access and manage their event-related tasks.</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1610434_event_0.event_user</name><scoped_admin>false</scoped_admin><suffix>event_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 06:28:25</sys_created_on><sys_id>38216d498300221012e66f60ceaad3b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1610434_event_0.event_user</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_user_role_38216d498300221012e66f60ceaad3b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 06:28:25</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1425843730</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day1_v1.0">16b31cd5838c221012e66f60ceaad3fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 19:28:34</sys_created_on>
+<sys_id>d6b31cd5838c221012e66f60ceaad3fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19550644d310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 19:28:34</sys_updated_on>
+<table/>
+<target_name>x_1610434_event_0.event_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>1a21e5495200221077b5b5488b992e93</update_guid>
+<update_guid_history>1a21e5495200221077b5b5488b992e93:1425843730</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_5e9069498300221012e66f60ceaad3cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Role for planners to create and manage events.</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1610434_event_0.event_planner</name><scoped_admin>false</scoped_admin><suffix>event_planner</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 06:26:18</sys_created_on><sys_id>5e9069498300221012e66f60ceaad3cb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1610434_event_0.event_planner</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_user_role_5e9069498300221012e66f60ceaad3cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 06:28:38</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-309618071</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day1_v1.0">16b31cd5838c221012e66f60ceaad3fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 19:28:34</sys_created_on>
+<sys_id>deb31cd5838c221012e66f60ceaad3fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19550647fdf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 19:28:34</sys_updated_on>
+<table/>
+<target_name>x_1610434_event_0.event_planner</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>ad3165894500221031715e482ca56141</update_guid>
+<update_guid_history>ad3165894500221031715e482ca56141:-309618071,dba0e949f80022102eea623307099fab:850993101</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

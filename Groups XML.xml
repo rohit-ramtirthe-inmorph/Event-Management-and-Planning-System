@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2025-03-01 06:35:31">
+<sys_user_group action="INSERT_OR_UPDATE">
+<active>true</active>
+<cost_center display_value=""/>
+<default_assignee display_value=""/>
+<description>Administrators responsible for managing the Event Management &amp; Planning system.</description>
+<email/>
+<exclude_manager>false</exclude_manager>
+<include_members>false</include_members>
+<manager display_value=""/>
+<name>Event Admins</name>
+<parent display_value=""/>
+<roles/>
+<source/>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 06:30:34</sys_created_on>
+<sys_id>60a165898300221012e66f60ceaad3ed</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 06:31:01</sys_updated_on>
+<type/>
+</sys_user_group>
+<sys_user_group action="INSERT_OR_UPDATE">
+<active>true</active>
+<cost_center display_value=""/>
+<default_assignee display_value=""/>
+<description>Coordinators responsible for executing events and managing on-site activities.</description>
+<email/>
+<exclude_manager>false</exclude_manager>
+<include_members>false</include_members>
+<manager display_value=""/>
+<name>Event Coordinators</name>
+<parent display_value=""/>
+<roles/>
+<source/>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 06:30:11</sys_created_on>
+<sys_id>1a816d498300221012e66f60ceaad3be</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 06:31:30</sys_updated_on>
+<type/>
+</sys_user_group>
+<sys_user_group action="INSERT_OR_UPDATE">
+<active>true</active>
+<cost_center display_value=""/>
+<default_assignee display_value=""/>
+<description>Managers overseeing the event planning and execution process.</description>
+<email/>
+<exclude_manager>false</exclude_manager>
+<include_members>false</include_members>
+<manager display_value=""/>
+<name>Event Managers</name>
+<parent display_value=""/>
+<roles/>
+<source/>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 06:30:22</sys_created_on>
+<sys_id>1a91a9898300221012e66f60ceaad357</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 06:31:13</sys_updated_on>
+<type/>
+</sys_user_group>
+<sys_user_group action="INSERT_OR_UPDATE">
+<active>true</active>
+<cost_center display_value=""/>
+<default_assignee display_value=""/>
+<description>Default group for managing event planning and scheduling.</description>
+<email/>
+<exclude_manager>false</exclude_manager>
+<include_members>false</include_members>
+<manager display_value=""/>
+<name>Event Planners</name>
+<parent display_value=""/>
+<roles/>
+<source/>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 06:25:48</sys_created_on>
+<sys_id>f080e5498300221012e66f60ceaad3f7</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 06:31:21</sys_updated_on>
+<type/>
+</sys_user_group>
+</unload>
