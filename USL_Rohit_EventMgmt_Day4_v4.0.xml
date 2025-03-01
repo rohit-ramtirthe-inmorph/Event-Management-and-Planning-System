@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-03-01 22:29:47">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<application_name>Event Management and Planning System</application_name>
+<application_scope>x_1610434_event_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>USL_Rohit_EventMgmt_Day4_v4.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>3ce55495838c221012e66f60ceaad38e</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>a83dfc158340621012e66f60ceaad362</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_04696a858384221012e66f60ceaad3ca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Task Details" section_id="04696a858384221012e66f60ceaad3ca" sys_domain="global" table="x_1610434_event_0_event_task" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>process_flow.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>9b8e5c1583cc221012e66f60ceaad333</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Process Flow">7fb8ae458384221012e66f60ceaad330</sys_ui_formatter><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>178e5c1583cc221012e66f60ceaad334</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>9b8e5c1583cc221012e66f60ceaad334</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_id</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>138e5c1583cc221012e66f60ceaad335</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>task_name</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>978e5c1583cc221012e66f60ceaad335</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>1f8e5c1583cc221012e66f60ceaad335</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>938e5c1583cc221012e66f60ceaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>1b8e5c1583cc221012e66f60ceaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>9f8e5c1583cc221012e66f60ceaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>due_date</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>178e5c1583cc221012e66f60ceaad337</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>9b8e5c1583cc221012e66f60ceaad337</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>138e5c1583cc221012e66f60ceaad338</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:15:53</sys_created_on><sys_id>978e5c1583cc221012e66f60ceaad338</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Task Details" display_value="Task Details" name="x_1610434_event_0_event_task" sys_domain="global" view="Default view">04696a858384221012e66f60ceaad3ca</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:15:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Task Details</caption><header>false</header><name>x_1610434_event_0_event_task</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 11:43:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>04696a858384221012e66f60ceaad3ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1610434_event_0_event_task</sys_name><sys_overrides/><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_section_04696a858384221012e66f60ceaad3ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 11:43:56</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>647508473</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>203dfc198340621012e66f60ceaad3b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955359de3c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_task</table>
+<target_name>Event Task</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>978e5c154acc22100daac0963b454f3a</update_guid>
+<update_guid_history>978e5c154acc22100daac0963b454f3a:647508473,d869aa85e2842210fd443c626890dc4b:1491967568</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_8eac68558300621012e66f60ceaad322</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 21:17:30</sys_created_on><sys_id>8eac68558300621012e66f60ceaad322</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Glide API: event management</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_scope_privilege_8eac68558300621012e66f60ceaad322</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 21:17:30</sys_updated_on><target_name>Glide API: event management</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1057357547</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>243dfc158340621012e66f60ceaad364</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>195539248970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table/>
+<target_name>Glide API: event management</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>46ac6855ba0062107248c6600bc36024</update_guid>
+<update_guid_history>46ac6855ba0062107248c6600bc36024:-1057357547</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_43b6d4d9838c221012e66f60ceaad394</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;true&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1610434_event_0_event_record&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;Event Planned!&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;Q1. Status to "Planned" for new event&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 19:46:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;43b6d4d9838c221012e66f60ceaad394&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Q1. Status to "Planned" for new event&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_43b6d4d9838c221012e66f60ceaad394&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 20:47:00&lt;/sys_updated_on&gt;&lt;template&gt;status=planned^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=43b6d4d9838c221012e66f60ceaad394"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>993195049</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>243dfc198340621012e66f60ceaad3b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19553765e470000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Q1. Status to "Planned" for new event</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>17a5205d2ccc2210ede6bbb8e929eddf</update_guid>
+<update_guid_history>17a5205d2ccc2210ede6bbb8e929eddf:993195049,2bb7981de88c22108d2136a7d4efa638:-182703731</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1610434_event_0_event_record_vip</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="vip" table="x_1610434_event_0_event_record"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>VIP</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>vip</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">boolean</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1610434_event_0_event_record</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:20</sys_created_on><sys_id>3c8d18d183cc221012e66f60ceaad31d</sys_id><sys_name>VIP</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_dictionary_x_1610434_event_0_event_record_vip</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:20</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1316592131</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>283dfc158340621012e66f60ceaad363</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955355b6d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Event Record.VIP</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>858d18d11ecc221064cc49bbe5852663</update_guid>
+<update_guid_history>858d18d11ecc221064cc49bbe5852663:-1316592131</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_f8a3aacd8344221012e66f60ceaad36e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Event Information" section_id="f8a3aacd8344221012e66f60ceaad36e" sys_domain="global" table="x_1610434_event_0_event_record" version="3" view="Planner_View"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>0ccd5cd183cc221012e66f60ceaad391</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>80cd5cd183cc221012e66f60ceaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_date</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>08cd5cd183cc221012e66f60ceaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>8ccd5cd183cc221012e66f60ceaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>04cd5cd183cc221012e66f60ceaad393</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>88cd5cd183cc221012e66f60ceaad393</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>location</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>00cd5cd183cc221012e66f60ceaad394</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>84cd5cd183cc221012e66f60ceaad394</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>0ccd5cd183cc221012e66f60ceaad394</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vip</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:23</sys_created_on><sys_id>80cd5cd183cc221012e66f60ceaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="9a14d6c98304221012e66f60ceaad315">f8a3aacd8344221012e66f60ceaad36e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Event Information</caption><header>false</header><name>x_1610434_event_0_event_record</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 11:18:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f8a3aacd8344221012e66f60ceaad36e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1610434_event_0_event_record</sys_name><sys_overrides/><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_section_f8a3aacd8344221012e66f60ceaad36e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 11:18:51</sys_updated_on><sys_user/><title>false</title><view display_value="Planner View" name="Planner_View">9a14d6c98304221012e66f60ceaad315</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1353882291</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>2c3dfc198340621012e66f60ceaad3b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955356a96e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Event Record</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>cccd5cd13ccc221063dc3bc0663ad196</update_guid>
+<update_guid_history>cccd5cd13ccc221063dc3bc0663ad196:-1353882291,09a3eacd9e4422105bbf873e4b150f0a:-1625940146</update_guid_history>
+<update_set display_value=""/>
+<view>Planner_View</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_62ac1c1183cc221012e66f60ceaad348</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:07:38</sys_created_on><sys_id>62ac1c1183cc221012e66f60ceaad348</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Glide API: user roles and groups</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_scope_privilege_62ac1c1183cc221012e66f60ceaad348</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:07:38</sys_updated_on><target_name>Glide API: user roles and groups</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>300269441</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>603dfc158340621012e66f60ceaad364</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>195535252790000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table/>
+<target_name>Glide API: user roles and groups</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>b2ac1c11fdcc2210a9fd290c870e574a</update_guid>
+<update_guid_history>b2ac1c11fdcc2210a9fd290c870e574a:300269441</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_3ce360d983cc221012e66f60ceaad3f1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1610434_event_0_budget&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1610434_event_0_budget"&gt;amount_spentISNOTEMPTYjavascript:global.getCurrencyFilter('x_1610434_event_0_budget','amount_spent', 'USD;USD')^amount_remainingISNOTEMPTYjavascript:global.getCurrencyFilter('x_1610434_event_0_budget','amount_remaining', 'USD;USD')^EQ&lt;item endquery="false" field="amount_spent" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value="javascript:global.getCurrencyFilter('x_1610434_event_0_budget','amount_spent', 'USD;USD')"/&gt;&lt;item endquery="false" field="amount_remaining" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value="javascript:global.getCurrencyFilter('x_1610434_event_0_budget','amount_remaining', 'USD;USD')"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Q5. Calculate the total budget&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    current.total_budget = parseInt(current.amount_spent) + parseInt(current.amount_remaining);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 20:43:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3ce360d983cc221012e66f60ceaad3f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Q5. Calculate the total budget&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_3ce360d983cc221012e66f60ceaad3f1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 21:32:04&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3ce360d983cc221012e66f60ceaad3f1"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;3ce360d983cc221012e66f60ceaad3f1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 20:43:39&lt;/sys_created_on&gt;&lt;sys_id&gt;12e460d983cc221012e66f60ceaad3ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 20:43:39&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>556861554</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>603dfc198340621012e66f60ceaad3b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>195539f9f230000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_budget</table>
+<target_name>Q5. Calculate the total budget</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>ebffe855d80062104dbbcde64fff437e</update_guid>
+<update_guid_history>ebffe855d80062104dbbcde64fff437e:556861554,12e4641d1ccc2210c702e8c62962324a:955432992</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_09c72cdd83cc221012e66f60ceaad3b8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><derived_priority>100</derived_priority><description>Triggers when feedback is submitted</description><event_name>x_1610434_event_0.feedback.submitted</event_name><fired_by/><priority>100</priority><queue/><suffix>feedback.submitted</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:57:48</sys_created_on><sys_id>09c72cdd83cc221012e66f60ceaad3b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1610434_event_0.feedback.submitted</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sysevent_register_09c72cdd83cc221012e66f60ceaad3b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:57:48</sys_updated_on><table>x_1610434_event_0_feedback</table></sysevent_register></record_update>]]></payload>
+<payload_hash>-1200606926</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>643dfc158340621012e66f60ceaad363</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19553803dd50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_feedback</table>
+<target_name>x_1610434_event_0.feedback.submitted</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>5928e011800062100d542939726dc6db</update_guid>
+<update_guid_history>5928e011800062100d542939726dc6db:-1200606926</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_e5b32ecd8344221012e66f60ceaad343</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Event Information" section_id="e5b32ecd8344221012e66f60ceaad343" sys_domain="global" table="x_1610434_event_0_event_record" version="3" view="Coordinator_View"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>13add8d183cc221012e66f60ceaad3a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>97add8d183cc221012e66f60ceaad3a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_date</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>1fadd8d183cc221012e66f60ceaad3a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>93add8d183cc221012e66f60ceaad3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>1badd8d183cc221012e66f60ceaad3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>9fadd8d183cc221012e66f60ceaad3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>location</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>17add8d183cc221012e66f60ceaad3a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>9badd8d183cc221012e66f60ceaad3a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>13add8d183cc221012e66f60ceaad3a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vip</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:12:03</sys_created_on><sys_id>97add8d183cc221012e66f60ceaad3a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="7a241ac98304221012e66f60ceaad354">e5b32ecd8344221012e66f60ceaad343</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:12:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Event Information</caption><header>false</header><name>x_1610434_event_0_event_record</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 11:19:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e5b32ecd8344221012e66f60ceaad343</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1610434_event_0_event_record</sys_name><sys_overrides/><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_section_e5b32ecd8344221012e66f60ceaad343</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 11:19:10</sys_updated_on><sys_user/><title>false</title><view display_value="Coordinator View" name="Coordinator_View">7a241ac98304221012e66f60ceaad354</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1925258461</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>683dfc198340621012e66f60ceaad3b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19553565df90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Event Record</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>d3add8d1c4cc2210642ea393483dc2aa</update_guid>
+<update_guid_history>d3add8d1c4cc2210642ea393483dc2aa:1925258461,71b32ecd74442210c22c8e27fbef97a1:-1080415748</update_guid_history>
+<update_set display_value=""/>
+<view>Coordinator_View</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_021964518300621012e66f60ceaad3f0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_1610434_event_0_feedback&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;x_1610434_event_0.feedback.submitted&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from&gt;event@servicenow.com&lt;/from&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance&gt;low&lt;/importance&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Dear ${attendee_id.first_name},&lt;/p&gt;
+&lt;p&gt;Thank you for providing feedback for the event &lt;strong&gt;${event_id.event_name}&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Your feedback is valuable, and we appreciate your input to help us improve future events.&lt;/p&gt;
+&lt;p&gt;Your Feedback:&lt;br&gt;&lt;span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));"&gt;Rating: &lt;strong&gt;${rating}&lt;/strong&gt;&lt;br&gt;&lt;/span&gt;&lt;span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));"&gt;Comments: ${comment}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Best Regards, &lt;br&gt;Event Management Team&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Feedback Submitted - Notify Attendee&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Your Feedback Has Been Submitted&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 21:03:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;021964518300621012e66f60ceaad3f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Feedback Submitted - Notify Attendee&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_021964518300621012e66f60ceaad3f0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 21:13:44&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;021964518300621012e66f60ceaad3f0&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 21:10:02&lt;/sys_created_on&gt;&lt;sys_id&gt;a4fa2cdd83cc221012e66f60ceaad304&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 21:10:02&lt;/sys_updated_on&gt;&lt;table&gt;sysevent_email_action&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>942980790</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>6c3dfc158340621012e66f60ceaad362</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>195538ed4c40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_feedback</table>
+<target_name>Feedback Submitted - Notify Attendee</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>bacbe011df0062105c2309dbc964cbe3</update_guid>
+<update_guid_history>bacbe011df0062105c2309dbc964cbe3:942980790,7cfa6c9d98cc2210bf735d2d180611e4:1860167046,f589245d39cc2210f6fb98593eccab53:-1240495539</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_d0376c9d83cc221012e66f60ceaad390</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1610434_event_0_feedback&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1610434_event_0_feedback"&gt;event_idISNOTEMPTY^EQ&lt;item endquery="false" field="event_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Q6. Notify Attendee on Feedback Submit&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	gs.eventQueue('x_1610434_event_0.feedback.submitted', current, current.attendee_id.email.toString());
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 21:16:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d0376c9d83cc221012e66f60ceaad390&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Q6. Notify Attendee on Feedback Submit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d0376c9d83cc221012e66f60ceaad390&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 21:16:13&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d0376c9d83cc221012e66f60ceaad390"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d0376c9d83cc221012e66f60ceaad390&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 21:16:12&lt;/sys_created_on&gt;&lt;sys_id&gt;8b5ce0558300621012e66f60ceaad325&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 21:16:12&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-706315762</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>6c3dfc198340621012e66f60ceaad3b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19553911a1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_feedback</table>
+<target_name>Q6. Notify Attendee on Feedback Submit</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>475cac51c8006210de3dce8cf87f76da</update_guid>
+<update_guid_history>475cac51c8006210de3dce8cf87f76da:-706315762</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_52c36ecd8344221012e66f60ceaad3df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Event Information" section_id="52c36ecd8344221012e66f60ceaad3df" sys_domain="global" table="x_1610434_event_0_event_record" version="3" view="manager_view"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>739d98d183cc221012e66f60ceaad3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>f79d98d183cc221012e66f60ceaad3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_date</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>7f9d98d183cc221012e66f60ceaad3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>f39d98d183cc221012e66f60ceaad3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>7b9d98d183cc221012e66f60ceaad3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>ff9d98d183cc221012e66f60ceaad3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>location</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>779d98d183cc221012e66f60ceaad3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>fb9d98d183cc221012e66f60ceaad3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>739d98d183cc221012e66f60ceaad3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vip</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:49</sys_created_on><sys_id>f79d98d183cc221012e66f60ceaad3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="164a12818344221012e66f60ceaad353">52c36ecd8344221012e66f60ceaad3df</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Event Information</caption><header>false</header><name>x_1610434_event_0_event_record</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 11:19:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>52c36ecd8344221012e66f60ceaad3df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1610434_event_0_event_record</sys_name><sys_overrides/><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_section_52c36ecd8344221012e66f60ceaad3df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 11:19:31</sys_updated_on><sys_user/><title>false</title><view display_value="Manager View" name="manager_view">164a12818344221012e66f60ceaad353</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1616884054</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>a43dfc198340621012e66f60ceaad3b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955356268d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Event Record</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>04ad98d120cc2210d8403ff4bfa180ae</update_guid>
+<update_guid_history>04ad98d120cc2210d8403ff4bfa180ae:-1616884054,26c3aecdee4422103f6a2b9f7195f649:-2008014887</update_guid_history>
+<update_set display_value=""/>
+<view>manager_view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_2cc9fc158340621012e66f60ceaad358</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1610434_event_0_event_task&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1610434_event_0_event_task"&gt;statusCHANGESTOcompleted^EQ&lt;item display_value="Completed" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="completed"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Q8. Update the status to Completed&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.work_notes = 'Task has been marked as Completed.';
+    gs.addInfoMessage('Task status updated to Completed.');
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 22:20:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2cc9fc158340621012e66f60ceaad358&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Q8. Update the status to Completed&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_2cc9fc158340621012e66f60ceaad358&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 22:20:20&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2cc9fc158340621012e66f60ceaad358"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2cc9fc158340621012e66f60ceaad358&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 22:20:19&lt;/sys_created_on&gt;&lt;sys_id&gt;4a0bf0d18340621012e66f60ceaad367&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 22:20:19&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1264192041</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>a83dfc158340621012e66f60ceaad364</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19553cbcda30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_task</table>
+<target_name>Q8. Update the status to Completed</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>d20bf015a040621062a2d2f1937fd306</update_guid>
+<update_guid_history>d20bf015a040621062a2d2f1937fd306:1264192041</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_ba591c1d838c221012e66f60ceaad326</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1610434_event_0_event_record&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1610434_event_0_event_record"&gt;statusCHANGESTOcompleted^EQ&lt;item display_value="Completed" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="completed"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Q3.Status - "Completed" when mark finish&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (gs.hasRole('x_1610434_event_0.event_planner')) {
+        current.status = 'completed';
+    } else {
+        gs.addErrorMessage('You must have a event planner role to complete this action.');
+        current.setAbortAction(true);
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 20:06:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ba591c1d838c221012e66f60ceaad326&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Q3.Status - "Completed" when mark finish&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ba591c1d838c221012e66f60ceaad326&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 20:47:39&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ba591c1d838c221012e66f60ceaad326"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;ba591c1d838c221012e66f60ceaad326&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 20:06:58&lt;/sys_created_on&gt;&lt;sys_id&gt;b08c101183cc221012e66f60ceaad3ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 20:06:58&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>591720985</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>a83dfc198340621012e66f60ceaad3b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955376f54a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Q3.Status - "Completed" when mark finish</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>f8d5e45db7cc2210524e3f18e928325a</update_guid>
+<update_guid_history>f8d5e45db7cc2210524e3f18e928325a:591720985,058cd091cacc2210d91b56726f3111bd:51575427</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_0d51201983cc221012e66f60ceaad390</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:28:00</sys_created_on><sys_id>0d51201983cc221012e66f60ceaad390</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScopedGlideElement</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_scope_privilege_0d51201983cc221012e66f60ceaad390</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:28:00</sys_updated_on><target_name>ScopedGlideElement</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1634155489</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>ac3dfc158340621012e66f60ceaad363</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955364f7fb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table/>
+<target_name>ScopedGlideElement</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>c151201935cc2210ba3b1850c8fb6b92</update_guid>
+<update_guid_history>c151201935cc2210ba3b1850c8fb6b92:1634155489</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_05e6aac18384221012e66f60ceaad32c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Event Information" section_id="05e6aac18384221012e66f60ceaad32c" sys_domain="global" table="x_1610434_event_0_event_record" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>process_flow.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>098d18d183cc221012e66f60ceaad371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Process Flow">e925aacd8344221012e66f60ceaad3ed</sys_ui_formatter><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>498d18d183cc221012e66f60ceaad372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>cd8d18d183cc221012e66f60ceaad372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_name</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>458d18d183cc221012e66f60ceaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_date</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>c98d18d183cc221012e66f60ceaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>418d18d183cc221012e66f60ceaad374</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>c58d18d183cc221012e66f60ceaad374</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>4d8d18d183cc221012e66f60ceaad374</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>location</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>c18d18d183cc221012e66f60ceaad375</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>498d18d183cc221012e66f60ceaad375</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>cd8d18d183cc221012e66f60ceaad375</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vip</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:21</sys_created_on><sys_id>458d18d183cc221012e66f60ceaad376</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event Information" display_value="Event Information" name="x_1610434_event_0_event_record" sys_domain="global" view="Default view">05e6aac18384221012e66f60ceaad32c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Event Information</caption><header>false</header><name>x_1610434_event_0_event_record</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 11:33:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>05e6aac18384221012e66f60ceaad32c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1610434_event_0_event_record</sys_name><sys_overrides/><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_section_05e6aac18384221012e66f60ceaad32c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 11:33:04</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1095162521</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>e03dfc198340621012e66f60ceaad3b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955355b84b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Event Record</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>098d18d1abcc22105cc880daa7669e78</update_guid>
+<update_guid_history>098d18d1abcc22105cc880daa7669e78:-1095162521,d5e6aac197842210c8c062ef1f7388be:-1490629162</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_2c1138598300621012e66f60ceaad3eb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1610434_event_0_budget&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1610434_event_0_budget"&gt;total_budgetISNOTEMPTYjavascript:global.getCurrencyFilter('x_1610434_event_0_budget','total_budget', 'USD;USD')^amount_spentISNOTEMPTYjavascript:global.getCurrencyFilter('x_1610434_event_0_budget','amount_spent', 'USD;USD')^amount_remainingISNOTEMPTYjavascript:global.getCurrencyFilter('x_1610434_event_0_budget','amount_remaining', 'USD;USD')^EQ&lt;item endquery="false" field="total_budget" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value="javascript:global.getCurrencyFilter('x_1610434_event_0_budget','total_budget', 'USD;USD')"/&gt;&lt;item endquery="false" field="amount_spent" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value="javascript:global.getCurrencyFilter('x_1610434_event_0_budget','amount_spent', 'USD;USD')"/&gt;&lt;item endquery="false" field="amount_remaining" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value="javascript:global.getCurrencyFilter('x_1610434_event_0_budget','amount_remaining', 'USD;USD')"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Q7. update the amount_remaining&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var _totalBudget = current.total_budget;
+    var _amountSpent = current.amount_spent;
+    var _amountRemaining = _totalBudget - _amountSpent;
+    if (_amountRemaining &lt; 0) {
+        gs.addErrorMessage('Amount Spent Exceeds Total Budget!');
+		current.setAbortAction(true);
+    } else {
+        current.amount_remaining = _amountRemaining;
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 21:44:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2c1138598300621012e66f60ceaad3eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Q7. update the amount_remaining&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_2c1138598300621012e66f60ceaad3eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 22:07:55&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2c1138598300621012e66f60ceaad3eb"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2c1138598300621012e66f60ceaad3eb&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 21:44:09&lt;/sys_created_on&gt;&lt;sys_id&gt;dcc238598300621012e66f60ceaad3ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 21:44:09&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1901633272</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>e43dfc158340621012e66f60ceaad364</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19553c06f950000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_budget</table>
+<target_name>Q7. update the amount_remaining</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>ac38f49d580062108532c752ca1abed5</update_guid>
+<update_guid_history>ac38f49d580062108532c752ca1abed5:1901633272,2cc23859ee006210de57598183b066ff:2008378558</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_70df549583cc221012e66f60ceaad317</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1610434_event_0_event_task&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;4) Priority to "High" for VIP event&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if(current.event_id.vip.toString() == 'true'){
+		current.priority = '2';
+		current.work_notes = 'Priority set to High as the event is a VIP.';
+        gs.addInfoMessage('This VIP event has been set to High Priority.');
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 20:25:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;70df549583cc221012e66f60ceaad317&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;4) Priority to "High" for VIP event&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_70df549583cc221012e66f60ceaad317&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 20:50:23&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=70df549583cc221012e66f60ceaad317"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;70df549583cc221012e66f60ceaad317&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-01 20:25:45&lt;/sys_created_on&gt;&lt;sys_id&gt;84d0281583cc221012e66f60ceaad3dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-01 20:25:45&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1427018912</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>e43dfc198340621012e66f60ceaad3b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>195537974cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_task</table>
+<target_name>4) Priority to "High" for VIP event</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>bc76a05dedcc2210a93000d674fa2ba9</update_guid>
+<update_guid_history>bc76a05dedcc2210a93000d674fa2ba9:1427018912,c4d02815c4cc22103d6cc933b2718ebd:1047168410</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1610434_event_0_event_record_vip_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="vip" label="VIP" language="en" table="x_1610434_event_0_event_record"><sys_documentation action="INSERT_OR_UPDATE"><element>vip</element><help/><hint/><label>VIP</label><language>en</language><name>x_1610434_event_0_event_record</name><plural>VIPs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-01 20:11:20</sys_created_on><sys_id>348d18d183cc221012e66f60ceaad358</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VIP</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_documentation_x_1610434_event_0_event_record_vip_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-01 20:11:20</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1529338265</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day4_v4.0">a83dfc158340621012e66f60ceaad362</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-01 22:29:46</sys_created_on>
+<sys_id>e83dfc158340621012e66f60ceaad363</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955355b6f10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-01 22:29:46</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Event Record.VIP</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>0d8d18d1e9cc221055f3263115d3d165</update_guid>
+<update_guid_history>0d8d18d1e9cc221055f3263115d3d165:1529338265</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
