@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-03-03 18:20:37">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<application_name>Event Management and Planning System</application_name>
+<application_scope>x_1610434_event_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Day 3: UI Policies and Client Scripts </description>
+<inserted/>
+<name>USL_Rohit_EventMgmt_Day3_v6.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>8936a0f583c0621012e66f60ceaad34c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>de57d6fd83c8621012e66f60ceaad307</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_d3c630718344621012e66f60ceaad3f7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate Schedule Time&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    var startTime = g_form.getValue('start_date');
+    var endTime = g_form.getValue('end_date');
+
+    if (startTime &amp;&amp; endTime) {
+        var startDate = new Date(startTime);
+        var endDate = new Date(endTime);
+
+        if (endDate &lt; startDate) {
+            g_form.clearMessages();
+            g_form.addErrorMessage("End time cannot be before start time. Please correct the schedule times.");
+            return false;
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 11:20:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d3c630718344621012e66f60ceaad3f7&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Schedule Time&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d3c630718344621012e66f60ceaad3f7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 12:09:34&lt;/sys_updated_on&gt;&lt;table&gt;x_1610434_event_0_schedule&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2011044513</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>1257d6fd83c8621012e66f60ceaad309</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955be959e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_schedule</table>
+<target_name>Validate Schedule Time</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>d362cdbdfd446210b282d53a45085171</update_guid>
+<update_guid_history>d362cdbdfd446210b282d53a45085171:-2011044513,90c181f98e44621024bb8a9299e7bafd:-958475907,b141013dcf446210c42db55f02b35602:-1485646947,b21041f1c0446210024eceb0f86c426a:-1130113171,f2fffcf9a94462106c7728e4814864af:-1073154427,abafb0f973446210f0d83c52138a9264:33259471,db4fbcb97b44621074e08592d4d437a5:-1408531897,0109bcb1444462109528763e291473d4:-694139320,c258f4b1fe446210c3488137aa5c4d76:-1302274177,c0c77071e444621028224cb3abe4bb3a:-651108068,db27387185446210ef7f9e00772b3f05:-1302274177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_ffdd68318304621012e66f60ceaad38e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1610434_event_0_feedback"&gt;rating=excellent^EQ&lt;item display_value="Excellent" endquery="false" field="rating" goto="false" newquery="false" operator="=" or="false" value="excellent"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;hide the comments field when the rating is "Excellent"&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 10:42:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ffdd68318304621012e66f60ceaad38e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;hide the comments field when the rating is "Excellent"&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_ffdd68318304621012e66f60ceaad38e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 10:47:27&lt;/sys_updated_on&gt;&lt;table&gt;x_1610434_event_0_feedback&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2006021928</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>1657d271830c621012e66f60ceaad352</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955b9e2a830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_feedback</table>
+<target_name>hide the comments field when the rating is "Excellent"</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>10afac751a046210fd611bc13d90b10e</update_guid>
+<update_guid_history>10afac751a046210fd611bc13d90b10e:-2006021928,207ee0f1ce046210f35d9cbcd30d1fb3:1220877858</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_ec9074798304621012e66f60ceaad3da</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1610434_event_0_schedule"&gt;activity_nameISNOTEMPTY^EQ&lt;item endquery="false" field="activity_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;end_time field mandatory when activity_name is filled&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 10:52:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ec9074798304621012e66f60ceaad3da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;end_time field mandatory when activity_name is filled&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_ec9074798304621012e66f60ceaad3da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 10:52:01&lt;/sys_updated_on&gt;&lt;table&gt;x_1610434_event_0_schedule&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>721317737</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>1657d6fd83c8621012e66f60ceaad30b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955ba25a110000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_schedule</table>
+<target_name>end_time field mandatory when activity_name is filled</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>9fa03031e30462102ee7cf49fba6b8f1</update_guid>
+<update_guid_history>9fa03031e30462102ee7cf49fba6b8f1:721317737</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_1738e4fd83c0621012e66f60ceaad382</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>contact_number</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 10:18:24</sys_created_on><sys_id>1738e4fd83c0621012e66f60ceaad382</sys_id><sys_mod_count>0</sys_mod_count><sys_name>contact_number</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_policy_action_1738e4fd83c0621012e66f60ceaad382</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 10:18:24</sys_updated_on><table>x_1610434_event_0_event_record</table><ui_policy display_value="contact_number field mandatory when contact_person is filled">ede720fd83c0621012e66f60ceaad327</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=1738e4fd83c0621012e66f60ceaad382"/></record_update>]]></payload>
+<payload_hash>-443712149</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>1a57d6fd83c8621012e66f60ceaad30a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955b8395440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>contact_number</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>baf86431db0462109d33686f7690aeea</update_guid>
+<update_guid_history>baf86431db0462109d33686f7690aeea:-443712149</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_45d67b558340221012e66f60ceaad3a5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1610434_event_0.EventUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;EventUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var EventUtils = Class.create();
+EventUtils.prototype = {
+    initialize: function() {
+        this._eventTable = 'x_1610434_event_0_event_record';
+    },
+
+    getEventDetails: function(_eventId) {
+        var _eventGR = new GlideRecordSecure(this._eventTable);
+        _eventGR.addQuery('sys_id', _eventId);
+        _eventGR.query();
+        if (_eventGR.next()) {
+            return this._mapEventFields(_eventGR);
+        }
+        return null;
+    },
+
+    isEventVIP: function(_eventId) {
+        var _eventGR = new GlideRecordSecure(this._eventTable);
+        _eventGR.addQuery('sys_id', _eventId);
+        _eventGR.query();
+        if (_eventGR.next()) {
+            return _eventGR.vip.toString() == 'true';
+        }
+        return false;
+    },
+
+    calculateRemainingBudget: function(_eventId) {
+        return new BudgetUtils().calculateRemainingBudget(_eventId);
+    },
+
+    getEventTasks: function(_eventId) {
+        return new TaskUtils().getTasksForEvent(_eventId);
+    },
+
+    getEventAttendees: function(_eventId) {
+        return new AttendeeUtils().getAttendeesByEvent(_eventId);
+    },
+
+    getEventVendors: function(_eventId) {
+        return new VendorUtils().getVendorsByEvent(_eventId);
+    },
+
+    getEventBudgetDetails: function(_eventId) {
+        return new BudgetUtils().getBudgetDetailsByEvent(_eventId);
+    },
+
+    getEventFeedback: function(_eventId) {
+        return new FeedbackUtils().getFeedbackByEvent(_eventId);
+    },
+
+    _mapEventFields: function(_eventGR) {
+        return {
+            sysId: _eventGR.getUniqueValue(),
+			eventId: _eventGR.getValue('number'),
+            eventName: _eventGR.getValue('event_name'),
+            eventDate: _eventGR.getValue('event_date'),
+            location: _eventGR.getValue('location'),
+            vip: _eventGR.vip.toString() == 'true',
+            status: _eventGR.getValue('status')
+        };
+    },
+
+    type: 'EventUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:05:09&lt;/sys_created_on&gt;&lt;sys_id&gt;45d67b558340221012e66f60ceaad3a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;EventUtils&lt;/sys_name&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_45d67b558340221012e66f60ceaad3a5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:09:24&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;45d67b558340221012e66f60ceaad3a5&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:05:09&lt;/sys_created_on&gt;&lt;sys_id&gt;b0d773d58340221012e66f60ceaad363&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-02 12:05:09&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1697302824</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>1e57d6fd83c8621012e66f60ceaad309</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955d32c87f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table/>
+<target_name>EventUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>8ec412bd6cc862109a39af80ba96109b</update_guid>
+<update_guid_history>8ec412bd6cc862109a39af80ba96109b:-1697302824,b292c8317a406210ee7ce2ec7390a8d3:1224860965,43e08c3d6b00621006938b6afb9674b7:277847142,d1139de122042210fc09866b1cabd7f0:1224860965,f8229de1f00422106d421b45b9d1e495:493798127,ad9b49693fc022106248bb9b675b5c85:411722161,61eacda908c02210d0134157d79a043d:1521926912,b98745e57dc022102111cc92da1a2af0:235531155,70f5c56557c022109fd85e0438f9caab:255821783,3cb1c4a1e7802210c13f02693e5b4641:1717830655,c9d773d59940221034562fa460fe587b:1853347670</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_ede720fd83c0621012e66f60ceaad327</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1610434_event_0_event_record"&gt;contact_personISNOTEMPTY^EQ&lt;item endquery="false" field="contact_person" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;contact_number field mandatory when contact_person is filled&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 10:15:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ede720fd83c0621012e66f60ceaad327&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;contact_number field mandatory when contact_person is filled&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_ede720fd83c0621012e66f60ceaad327&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 10:15:00&lt;/sys_updated_on&gt;&lt;table&gt;x_1610434_event_0_event_record&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-175203075</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>5257d271830c621012e66f60ceaad352</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955b80766a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>contact_number field mandatory when contact_person is filled</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>0d386cbd99c06210149193d1469421d7</update_guid>
+<update_guid_history>0d386cbd99c06210149193d1469421d7:-175203075</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_feafe0398304621012e66f60ceaad3cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>comment</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 10:47:59</sys_created_on><sys_id>feafe0398304621012e66f60ceaad3cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>comment</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_policy_action_feafe0398304621012e66f60ceaad3cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 10:47:59</sys_updated_on><table>x_1610434_event_0_feedback</table><ui_policy display_value="hide the comments field when the rating is &quot;Excellent&quot;">ffdd68318304621012e66f60ceaad38e</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=feafe0398304621012e66f60ceaad3cb"/></record_update>]]></payload>
+<payload_hash>1677020193</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>5257d6fd83c8621012e66f60ceaad30b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955b9ea79b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_feedback</table>
+<target_name>comment</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>c8cf60b566046210a6362e1985362520</update_guid>
+<update_guid_history>c8cf60b566046210a6362e1985362520:1677020193</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_721170b98304621012e66f60ceaad3a8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1610434_event_0_vendor"&gt;vendor_nameISEMPTY^EQ&lt;item endquery="false" field="vendor_name" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;hide the services_provided field when the vendor_name is empty&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 10:54:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;721170b98304621012e66f60ceaad3a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;hide the services_provided field when the vendor_name is empty&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_721170b98304621012e66f60ceaad3a8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 10:54:15&lt;/sys_updated_on&gt;&lt;table&gt;x_1610434_event_0_vendor&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>962788321</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>5657d6fd83c8621012e66f60ceaad30a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955ba466d60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_vendor</table>
+<target_name>hide the services_provided field when the vendor_name is empty</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>4c3130b5ae046210feebfec139328c68</update_guid>
+<update_guid_history>4c3130b5ae046210feebfec139328c68:962788321</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_4353c4a18380221012e66f60ceaad3c7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1610434_event_0.BudgetUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;BudgetUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var BudgetUtils = Class.create();
+BudgetUtils.prototype = {
+    initialize: function() {
+        this._budgetTable = 'x_1610434_event_0_budget';
+    },
+
+    // calculateTotalBudget: function (_eventId) {
+    //     var _budgetGR = new GlideRecordSecure(this._budgetTable);
+    //     _budgetGR.addQuery('event_id', _eventId);
+    //     _budgetGR.query();
+    //     if (_budgetGR.next()) {
+    //         return _budgetGR.getValue('total_budget');
+    //     }
+    //     return 0;
+    // },
+    calculateTotalBudget: function(_eventId) {
+        var _totalBudget = 0;
+        var _budgetGA = new GlideAggregate(this._budgetTable);
+        _budgetGA.addQuery('event_id', _eventId);
+        _budgetGA.addAggregate('SUM', 'total_budget');
+        _budgetGA.query();
+        if (_budgetGA.next()) {
+            _totalBudget = _budgetGA.getAggregate('SUM', 'total_budget');
+        }
+        return _totalBudget;
+    },
+
+    calculateRemainingBudget: function(_eventId) {
+        var _totalBudget = 0,
+            _amountSpent = 0,
+            _amountRemaining = 0;
+
+        var _budgetGR = new GlideRecordSecure(this._budgetTable);
+        _budgetGR.addQuery('event_id', _eventId);
+        _budgetGR.query();
+
+        if (_budgetGR.next()) {
+            _totalBudget = parseFloat(_budgetGR.getValue('total_budget')) || 0;
+            _amountSpent = parseFloat(_budgetGR.getValue('amount_spent')) || 0;
+            _amountRemaining = _totalBudget - _amountSpent;
+        }
+
+        return _amountRemaining;
+    },
+
+    isBudgetApproved: function(_eventId) {
+        var _budgetGR = new GlideRecordSecure(this._budgetTable);
+        _budgetGR.addQuery('event_id', _eventId);
+        _budgetGR.addQuery('status', 'approved');
+        _budgetGR.query();
+        return _budgetGR.hasNext();
+    },
+
+    getBudgetDetailsByEvent: function(_eventId) {
+        var _budgetList = [];
+        var _budgetGR = new GlideRecordSecure(this._budgetTable);
+        _budgetGR.addQuery('event_id', _eventId);
+        _budgetGR.query();
+        while (_budgetGR.next()) {
+            _budgetList.push(this._mapBudgetFields(_budgetGR));
+        }
+        return _budgetList;
+    },
+
+    _mapBudgetFields: function(_budgetGR) {
+        return {
+            sysId: _budgetGR.getUniqueValue(),
+			budgetId: _budgetGR.getValue('number'),
+            eventId: _budgetGR.getValue('event_id'),
+            totalBudget: _budgetGR.getValue('total_budget'),
+            amountSpent: _budgetGR.getValue('amount_spent'),
+            amountRemaining: _budgetGR.getValue('amount_remaining'),
+            status: _budgetGR.getValue('status')
+        };
+    },
+    type: 'BudgetUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:56:38&lt;/sys_created_on&gt;&lt;sys_id&gt;4353c4a18380221012e66f60ceaad3c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;BudgetUtils&lt;/sys_name&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4353c4a18380221012e66f60ceaad3c7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:16:13&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;4353c4a18380221012e66f60ceaad3c7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:56:38&lt;/sys_created_on&gt;&lt;sys_id&gt;7e9384258380221012e66f60ceaad36e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-02 12:56:38&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-623409467</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>5a57d6fd83c8621012e66f60ceaad309</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955d3907640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table/>
+<target_name>BudgetUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>865652bdbac862104ca6ccbf16ce2a5d</update_guid>
+<update_guid_history>865652bdbac862104ca6ccbf16ce2a5d:-623409467,90d199690bc0221014d3905a2e95449b:301475354,7c119169fcc022105177d37525227431:1104021271,9cc178e99d402210712a6e5c77672236:210329237,681faca9b1402210ea74be1fb2730fd9:-444289004,2937e46df6002210b7cba4f77862a10b:-1669288353,87930c258c8022108ac04c7a59423c99:-594132839</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_af35b8bd8304621012e66f60ceaad35f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;rating&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Thank You Message for Rating&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var rating = g_form.getValue('rating');
+
+    g_form.clearMessages();
+
+    switch (rating) {
+        case 'excellent':
+            g_form.addInfoMessage("Thank you for the excellent rating! We’re thrilled you had a great experience.");
+            break;
+        case 'good':
+            g_form.addInfoMessage("Thank you for the positive feedback! We're glad you’re satisfied.");
+            break;
+        case 'average':
+            g_form.addInfoMessage("Thank you for your feedback! We’ll keep working to improve.");
+            break;
+        case 'poor':
+            g_form.addInfoMessage("We appreciate your honesty. We’re sorry we didn’t meet your expectations — we’ll do better!");
+            break;
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 11:15:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;af35b8bd8304621012e66f60ceaad35f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Thank You Message for Rating&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_af35b8bd8304621012e66f60ceaad35f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 11:15:20&lt;/sys_updated_on&gt;&lt;table&gt;x_1610434_event_0_feedback&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>201629686</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>5e57d6fd83c8621012e66f60ceaad308</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955bb7b51f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_feedback</table>
+<target_name>Thank You Message for Rating</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>380670fdd104621099b7ee6bd72a9f91</update_guid>
+<update_guid_history>380670fdd104621099b7ee6bd72a9f91:201629686</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_33c3b8798304621012e66f60ceaad335</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;status&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Show Confirmation for Scheduled Status&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var status = g_form.getValue('status');
+
+    if (status == 'scheduled') {
+        g_form.addInfoMessage("The event is now scheduled. Please ensure all details are correct before proceeding.");
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 11:10:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;33c3b8798304621012e66f60ceaad335&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show Confirmation for Scheduled Status&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_33c3b8798304621012e66f60ceaad335&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 11:10:41&lt;/sys_updated_on&gt;&lt;table&gt;x_1610434_event_0_event_record&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1617305395</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>9257d6fd83c8621012e66f60ceaad308</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955bb371a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Show Confirmation for Scheduled Status</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>a0f43cb9fb04621023e36c0dd8102eb8</update_guid>
+<update_guid_history>a0f43cb9fb04621023e36c0dd8102eb8:1617305395,a7c47cb9510462104721c0829c7cc897:417824187</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_f9e2c8298340221012e66f60ceaad303</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1610434_event_0.AttendeeUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;AttendeeUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var AttendeeUtils = Class.create();
+AttendeeUtils.prototype = {
+    initialize: function () {
+        this._attendeeTable = 'x_1610434_event_0_attendee';
+    },
+
+    isAttendeeRegistered: function (_attendeeId) {
+        var _attendeeGR = new GlideRecordSecure(this._attendeeTable);
+        _attendeeGR.addQuery('sys_id', _attendeeId);
+        _attendeeGR.query();
+        return _attendeeGR.hasNext();
+    },
+
+    getAttendeeDetailsById: function (_attendeeId) {
+        var _attendeeGR = new GlideRecordSecure(this._attendeeTable);
+        _attendeeGR.addQuery('sys_id', _attendeeId);
+        _attendeeGR.query();
+        if (_attendeeGR.next()) {
+            return this._mapAttendeeFields(_attendeeGR);
+        }
+        return null;
+    },
+
+    getAttendeesByEvent: function (_eventId) {
+        var _attendeeList = [];
+        var _attendeeGR = new GlideRecordSecure(this._attendeeTable);
+        _attendeeGR.addQuery('event_id', _eventId);
+        _attendeeGR.query();
+        while (_attendeeGR.next()) {
+            _attendeeList.push(this._mapAttendeeFields(_attendeeGR));
+        }
+        return _attendeeList;
+    },
+
+	_mapAttendeeFields: function (_attendeeGR) {
+        return {
+            sysId: _attendeeGR.getUniqueValue(),
+			attendeeId: _attendeeGR.getValue('number'),
+            firstName: _attendeeGR.getValue('first_name'),
+            lastName: _attendeeGR.getValue('last_name'),
+            email: _attendeeGR.getValue('email'),
+            contactNumber: _attendeeGR.getValue('contact_number'),
+            eventId: _attendeeGR.getValue('event_id')
+        };
+    },
+
+    type: 'AttendeeUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:54:07&lt;/sys_created_on&gt;&lt;sys_id&gt;f9e2c8298340221012e66f60ceaad303&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;AttendeeUtils&lt;/sys_name&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f9e2c8298340221012e66f60ceaad303&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:17:46&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;f9e2c8298340221012e66f60ceaad303&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:54:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c60388e18380221012e66f60ceaad38d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-02 12:54:07&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1887419769</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>9257d6fd83c8621012e66f60ceaad30a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955d3a720a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table/>
+<target_name>AttendeeUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>fcb65ebd19c862108877b8069b5f69f0</update_guid>
+<update_guid_history>fcb65ebd19c862108877b8069b5f69f0:-1887419769,929834a1c5802210bd18342a843e8fbd:1964231390,5a038ce1a1402210952b4587eb2cc702:-1083117837</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_29728ce18340221012e66f60ceaad399</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1610434_event_0.TaskUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;TaskUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var TaskUtils = Class.create();
+TaskUtils.prototype = {
+    initialize: function() {
+        this._taskTable = 'x_1610434_event_0_event_task';
+    },
+
+    getTasksForEvent: function(_eventId) {
+        var _taskList = [];
+        var _taskGR = new GlideRecordSecure(this._taskTable);
+        _taskGR.addQuery('event_id', _eventId);
+        _taskGR.query();
+        while (_taskGR.next()) {
+            _taskList.push(this._mapTaskFields(_taskGR));
+        }
+        return _taskList;
+    },
+
+    isTaskOverdue: function(_taskId) {
+        var _taskGR = new GlideRecordSecure(this._taskTable);
+        _taskGR.addQuery('sys_id', _taskId);
+        _taskGR.query();
+        if (_taskGR.next()) {
+            var _dueDate = new GlideDateTime(_taskGR.getValue('due_date'));
+            return _dueDate &lt; new GlideDateTime();
+        }
+        return false;
+    },
+
+    getTaskDetailsById: function(_taskId) {
+        var _taskGR = new GlideRecordSecure(this._taskTable);
+        _taskGR.addQuery('sys_id', _taskId);
+        _taskGR.query();
+        if (_taskGR.next()) {
+            return this._mapTaskFields(_taskGR);
+        }
+        return null;
+    },
+
+    getTasksByDueDate: function(_dueDate) {
+        var _taskList = [];
+        var _taskGR = new GlideRecordSecure(this._taskTable);
+
+        var _startOfDay = new GlideDateTime(_dueDate + " 00:00:00");
+        var _endOfDay = new GlideDateTime(_dueDate + " 23:59:59");
+
+        _taskGR.addQuery('due_date', '&gt;=', _startOfDay);
+        _taskGR.addQuery('due_date', '&lt;=', _endOfDay);
+        _taskGR.query();
+
+        while (_taskGR.next()) {
+            _taskList.push(this._mapTaskFields(_taskGR));
+        }
+        return _taskList;
+    },
+
+    _mapTaskFields: function(_taskGR) {
+        return {
+            sysId: _taskGR.getUniqueValue(),
+			eventTaskId: _taskGR.getValue('number'),
+            eventId: _taskGR.getValue('event_id'),
+            taskName: _taskGR.getValue('task_name'),
+            assignedTo: _taskGR.getValue('assigned_to'),
+            dueDate: _taskGR.getValue('due_date'),
+            status: _taskGR.getValue('status'),
+            priority: _taskGR.getValue('priority')
+        };
+    },
+
+    type: 'TaskUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:52:30&lt;/sys_created_on&gt;&lt;sys_id&gt;29728ce18340221012e66f60ceaad399&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;TaskUtils&lt;/sys_name&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_29728ce18340221012e66f60ceaad399&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:17:06&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;29728ce18340221012e66f60ceaad399&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:52:29&lt;/sys_created_on&gt;&lt;sys_id&gt;d2a2c8298340221012e66f60ceaad302&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-02 12:52:29&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>921505031</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>9657d6fd83c8621012e66f60ceaad309</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955d39d7280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table/>
+<target_name>TaskUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>07869e3d75c8621078e0a3f289dbc184</update_guid>
+<update_guid_history>07869e3d75c8621078e0a3f289dbc184:921505031,5db185e5f38022106a46bceee85118ce:1210657600,d6a2c429fa4022107b39dc613d0bd30c:1497542893</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_4bc130f98304621012e66f60ceaad31c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Welcome msg&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   g_form.addInfoMessage("Welcome to the Event Record form!");
+
+   if(!g_form.isNewRecord()){
+		var _eventSysId = g_form.getUniqueValue();
+
+		var _eventGAjax = new GlideAjax('EventUtilsCS');
+		_eventGAjax.addParam('sysparm_name', 'getEventDetails');
+		_eventGAjax.addParam('sysparm_eventId', _eventSysId);
+
+		_eventGAjax.getXMLAnswer(function(response){
+			response = JSON.parse(response);
+			g_form.addInfoMessage(
+				"The event '"+response.eventName+"' is "+((response.vip==true)? 'an VIP':'not an VIP')+" and date is: "+response.eventDate+"."
+			);
+		});
+   }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 10:58:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4bc130f98304621012e66f60ceaad31c&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Welcome msg&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_4bc130f98304621012e66f60ceaad31c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:12:14&lt;/sys_updated_on&gt;&lt;table&gt;x_1610434_event_0_event_record&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-637071891</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>9a57d6fd83c8621012e66f60ceaad308</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955d35635a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_event_record</table>
+<target_name>Welcome msg</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>f7659e3d12c86210a4e797cd32ad3d8d</update_guid>
+<update_guid_history>f7659e3d12c86210a4e797cd32ad3d8d:-637071891,d6149e3de2c86210c2267d5bddb55fbd:1843560288,c7d39e3d0bc86210cc5728fa307e9d32:883385183,f4529e357dc86210fc6b5ac622b049d7:1336438356,67225ef526c8621008a6377375f909ec:-1251346007,dcc15ef54ec86210da30ee33586d74e5:-1638611462,0f12f0b9a00462102c1ac22a1b22d524:-1212794369</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_9931f0b98304621012e66f60ceaad3f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>services_provided</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 10:54:45</sys_created_on><sys_id>9931f0b98304621012e66f60ceaad3f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>services_provided</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_policy_action_9931f0b98304621012e66f60ceaad3f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 10:54:45</sys_updated_on><table>x_1610434_event_0_vendor</table><ui_policy display_value="hide the services_provided field when the vendor_name is empty">721170b98304621012e66f60ceaad3a8</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=9931f0b98304621012e66f60ceaad3f9"/></record_update>]]></payload>
+<payload_hash>-454488425</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>9e57d6fd83c8621012e66f60ceaad30a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955ba4dc720000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_vendor</table>
+<target_name>services_provided</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>93417879bb0462107aefe98fabbedb0f</update_guid>
+<update_guid_history>93417879bb0462107aefe98fabbedb0f:-454488425</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_0913c4a18380221012e66f60ceaad3ed</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1610434_event_0.FeedbackUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;FeedbackUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var FeedbackUtils = Class.create();
+FeedbackUtils.prototype = {
+    initialize: function () {
+        this._feedbackTable = 'x_1610434_event_0_feedback';
+    },
+
+    getFeedbackDetailsById: function (_feedbackId) {
+        var _feedbackGR = new GlideRecordSecure(this._feedbackTable);
+        _feedbackGR.addQuery('sys_id', _feedbackId);
+        _feedbackGR.query();
+        if (_feedbackGR.next()) {
+            return this._mapFeedback(_feedbackGR);
+        }
+        return null;
+    },
+
+    isFeedbackPositive: function (_feedbackId) {
+        var _feedbackGR = new GlideRecordSecure(this._feedbackTable);
+        _feedbackGR.addQuery('sys_id', _feedbackId);
+        _feedbackGR.query();
+        if (_feedbackGR.next()) {
+            var _rating = _feedbackGR.getValue('rating');
+            return _rating == 'excellent' || _rating == 'good';
+        }
+        return false;
+    },
+
+    getFeedbackByEvent: function (_eventId) {
+        var _feedbackList = [];
+        var _feedbackGR = new GlideRecordSecure(this._feedbackTable);
+        _feedbackGR.addQuery('event_id', _eventId);
+        _feedbackGR.query();
+        while (_feedbackGR.next()) {
+            _feedbackList.push(this._mapFeedback(_feedbackGR));
+        }
+        return _feedbackList;
+    },
+
+	_mapFeedback: function(_feedbackGR) {
+        return {
+            sysId: _feedbackGR.getUniqueValue(),
+			feedbackId: _feedbackGR.getValue('number'),
+            eventId: _feedbackGR.getValue('event_id'),
+            attendeeId: _feedbackGR.getValue('attendee_id'),
+            rating: _feedbackGR.getValue('rating'),
+            comment: _feedbackGR.getValue('comment')
+        };
+    },
+
+    type: 'FeedbackUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:55:21&lt;/sys_created_on&gt;&lt;sys_id&gt;0913c4a18380221012e66f60ceaad3ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;FeedbackUtils&lt;/sys_name&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_0913c4a18380221012e66f60ceaad3ed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:18:42&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;0913c4a18380221012e66f60ceaad3ed&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:55:20&lt;/sys_created_on&gt;&lt;sys_id&gt;c8538ce18340221012e66f60ceaad307&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-02 12:55:20&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1972538656</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>d257d6fd83c8621012e66f60ceaad309</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955d3b4da30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table/>
+<target_name>FeedbackUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>5ae65a31950c6210aae6ab28172ef084</update_guid>
+<update_guid_history>5ae65a31950c6210aae6ab28172ef084:1972538656,d89538a12d80221052af075700eba537:208044845,28c4386158802210547b9535896fcedc:-1796443283,485308e128802210487ad24507ffd3bd:969293873</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_49b078798304621012e66f60ceaad306</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>end_date</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 10:52:44</sys_created_on><sys_id>49b078798304621012e66f60ceaad306</sys_id><sys_mod_count>0</sys_mod_count><sys_name>end_date</sys_name><sys_package display_value="Event Management and Planning System" source="x_1610434_event_0">b45a11818300221012e66f60ceaad3e3</sys_package><sys_policy/><sys_scope display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</sys_scope><sys_update_name>sys_ui_policy_action_49b078798304621012e66f60ceaad306</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 10:52:44</sys_updated_on><table>x_1610434_event_0_schedule</table><ui_policy display_value="end_time field mandatory when activity_name is filled">ec9074798304621012e66f60ceaad3da</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=49b078798304621012e66f60ceaad306"/></record_update>]]></payload>
+<payload_hash>-1839581904</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>da57d6fd83c8621012e66f60ceaad30a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955ba302e60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table>x_1610434_event_0_schedule</table>
+<target_name>end_date</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>fdd0b439d0046210752468d6563ff41b</update_guid>
+<update_guid_history>fdd0b439d0046210752468d6563ff41b:-1839581904</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Event Management and Planning System">b45a11818300221012e66f60ceaad3e3</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_a2a3c4a18380221012e66f60ceaad3fe</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1610434_event_0.VendorUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;VendorUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var VendorUtils = Class.create();
+VendorUtils.prototype = {
+    initialize: function () {
+        this._vendorTable = 'x_1610434_event_0_vendor';
+    },
+
+    getVendorDetailsById: function (_vendorId) {
+        var _vendorGR = new GlideRecord(this._vendorTable);
+        _vendorGR.addQuery('sys_id', _vendorId);
+        _vendorGR.query();
+        if (_vendorGR.next()) {
+            return this._mapVendorFields(_vendorGR);
+        }
+        return null;
+    },
+
+    isVendorAvailable: function (_vendorId) {
+        var _vendorGR = new GlideRecord(this._vendorTable);
+        _vendorGR.addQuery('sys_id', _vendorId);
+        _vendorGR.query();
+        if (_vendorGR.next()) {
+            return _vendorGR.availability.toString() == 'true';
+        }
+        return false;
+    },
+
+    getVendorsByEvent: function (_eventId) {
+        var _vendorList = [];
+        var _vendorGR = new GlideRecord(this._vendorTable);
+        _vendorGR.addQuery('event_id', _eventId);
+        _vendorGR.query();
+        while (_vendorGR.next()) {
+             _vendorList.push(this._mapVendorFields(_vendorGR));
+        }
+        return _vendorList;
+    },
+
+	_mapVendorFields: function (_vendorGR) {
+        return {
+            sysId: _vendorGR.getUniqueValue(),
+			vendorId: _vendorGR.getValue('number'),
+            eventId: _vendorGR.getValue('event_id'),
+            vendorName: _vendorGR.getValue('vendor_name'),
+            contactPerson: _vendorGR.getValue('contact_person'),
+            contactNumber: _vendorGR.getValue('contact_number'),
+            servicesProvided: _vendorGR.getValue('services_provided'),
+            availability: _vendorGR.availability.toString() == 'true',
+            email: _vendorGR.getValue('email')
+        };
+    },
+
+    type: 'VendorUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:58:19&lt;/sys_created_on&gt;&lt;sys_id&gt;a2a3c4a18380221012e66f60ceaad3fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;VendorUtils&lt;/sys_name&gt;&lt;sys_package display_value="Event Management and Planning System" source="x_1610434_event_0"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Event Management and Planning System"&gt;b45a11818300221012e66f60ceaad3e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_a2a3c4a18380221012e66f60ceaad3fe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:15:34&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;a2a3c4a18380221012e66f60ceaad3fe&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-02 12:58:18&lt;/sys_created_on&gt;&lt;sys_id&gt;2bf3c4a18380221012e66f60ceaad3cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-02 12:58:18&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>102448865</payload_hash>
+<remote_update_set display_value="USL_Rohit_EventMgmt_Day3_v6.0">de57d6fd83c8621012e66f60ceaad307</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-03-03 18:20:36</sys_created_on>
+<sys_id>de57d6fd83c8621012e66f60ceaad309</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1955d3870800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-03-03 18:20:36</sys_updated_on>
+<table/>
+<target_name>VendorUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>6c36967db0c86210a96b6595a645e2db</update_guid>
+<update_guid_history>6c36967db0c86210a96b6595a645e2db:102448865,4524d1a5270422104ea72b80d05350f2:-1335374512,4b9220a975002210fbdf146a13b77010:-1446965766,d3df14697900221023eba2570d05c5b9:-2027494687,c91b58e1580022102d8fc15313f094c7:743611061,6bf3c065bb8022107912dd927d906972:2064146593</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
